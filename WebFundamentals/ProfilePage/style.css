@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    margin-left: 230px;
+    /* height: 60px; */
+    text-decoration-color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header h1 {
+    margin-left: 20px;
+}
+
+.headertabs {
+    display: flex;
+    width: 50%;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    background-color: black;
+}
+
+.wholepage { 
+    width: 1500px;
+    height: max-content;
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
+}
+
+#leftbox {
+    width: 500px;
+    height: fit-content;
+    background-color:whitesmoke;
+    padding: 20px;
+    display:inline-block;
+    align-items: top;
+    margin-top: 30px;
+    padding-left: 8px;
+}
+
+.topleft {
+    width: inherit;
+    height: fit-content;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 2px;
+    border-color:grey;
+    border-style: solid;
+    background-color: beige;
+    /* position: absolute; */
+}
+
+.bottomleft {
+    width: inherit;
+    height: fit-content;
+    background-color: beige;
+    margin-top: 30px;
+    border: 2px;
+    border-style: solid;
+    border-color: grey;
+}
+
+#rightbox {
+    width: 250px;
+    height: fit-content;
+    background-color:whitesmoke;
+    padding: 20px;
+    margin: 30px;
+    padding-left: 8px;
+}
+
+.topright {
+    width: inherit;
+    height: fit-content;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 2px;
+    border-color:grey;
+    border-style: solid;
+    background-color: beige;
+}
+
+.bottomright {
+    width: inherit;
+    height: fit-content;
+    background-color: beige;
+    margin-top: 30px;
+    border: 2px;
+    border-style: solid;
+    border-color: grey;
+}
+
+.coloredblock {
+    background-color: aquamarine;
+    height: 50px;
+    width: inherit;
+    position: relative;
+    background-position-x: 300px;
+    background-position-y: 100px;
+    padding-right: 11px;
+    background-clip: initial;
+}
+
+.inline {
+    display: inline-flex;
+    justify-content: left;
+    margin: 5px;
+}
+
+.profile {
+    height: 70px;
+    width: 70px;
+    display: flex;
+}
+
+.location{ 
+    height: 20px;
+    width: 10px;
+}
+
+#gear {
+    height: 15px;
+    width: 15px;
+    text-decoration: darkseagreen;
+}
+
+.smallheader {
+    height: 25px;
+    width: inherit;
+    background-color: black;
+}
+
+.smallheader .bottomleft {
+    height: 25px;
+    width: inherit;
+    background-color: black;
+    padding-left: 5px;
+}
+
+.smallheader .topleft {
+    height: 25px;
+    width: inherit;
+    background-color: black;
+    padding-left: 5px;
+}
+
+#smallborder {
+    border-top: 2px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: grey;
+    padding: 3px;
+}
+
+#profilepic {
+    height: 25px;
+    width: 25px;
+    padding-left: 5px;
+}
+
+#checkorx {
+    height: 20px;
+    width: 20x;
+    display: inline-flex;
+    justify-content: right;
+    margin-left: 90px;
+}
+
+#check {
+    height: 20px;
+    width: 20x;
+    display: inline-flex;
+}
+
+h1 {
+    font-style: oblique;
+    display: inline;
+}
+
+h2 {
+    margin: 3px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+P {
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+
+img {
+    margin: 3px;
+}
